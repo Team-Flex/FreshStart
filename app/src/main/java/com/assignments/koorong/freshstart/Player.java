@@ -17,6 +17,7 @@ public class Player {
         this.playerName = playerName;
         this.position = position;
         this.goals = goals;
+
     }
     public void setDbId(long dbId) { this.dbId = dbId; }
 
