@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FreshStart.iml" filepath="$PROJECT_DIR$/FreshStart.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firsteverfragment/firsteverfragment.iml" filepath="$PROJECT_DIR$/firsteverfragment/firsteverfragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqlitedemo/sqlitedemo.iml" filepath="$PROJECT_DIR$/sqlitedemo/sqlitedemo.iml" />
     </modules>
   </component>

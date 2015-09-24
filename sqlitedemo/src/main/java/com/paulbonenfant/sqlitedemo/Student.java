@@ -8,7 +8,7 @@ public class Student {
     private String mName;
     private String mNumber;
     private boolean mFullTime;
-    private long mDbId; // will be populated once inserted into db
+    private long mDbId; // will populate once inserted into db
 
     public Student(String name, String number, boolean fullTime) {
         mName = name;

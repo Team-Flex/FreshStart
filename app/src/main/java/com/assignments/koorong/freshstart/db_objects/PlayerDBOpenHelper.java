@@ -28,7 +28,6 @@ public class PlayerDBOpenHelper extends SQLiteOpenHelper {
         db.execSQL(PlayerDataSource.CREATE_TABLE);
 
     }
-
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         // for now we'll just drop the table and call onCreate() not checking for

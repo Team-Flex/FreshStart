@@ -84,7 +84,7 @@ public class PlayerDataSource
         Cursor cursor = mDatabase.query(TABLE_NAME, null, null, null, null, null, null);
 
         cursor.moveToFirst();
-        while (!cursor.isAfterLast())
+        while (cursor.moveToNext())
         {
             String name = cursor.getString(NAME_COLUMN_POSITION);
             String position = cursor.getString(PLAYER_POSITION_COLUMN_POSITION);
@@ -94,9 +94,12 @@ public class PlayerDataSource
         }
         // close the cursor
         cursor.close();
-
         // return the list to the caller
         return players;
     }
 
+    public boolean deleteRecords()
+    {
+        return true;
+    }
 }
